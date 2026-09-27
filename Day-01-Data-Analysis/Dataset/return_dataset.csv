@@ -1,0 +1,501 @@
+return_id,product_category,days_after_delivery,product_condition,return_reason,payment_method,product_price,customer_rating,previous_returns,within_policy_period,return_approved,risk_score,risk_level
+1,Furniture,8,New,Damaged Product,Debit Card,14928,2,1,1,1,10,LOW
+2,Furniture,1,New,Defective Product,UPI,6440,2,3,1,0,20,LOW
+3,Footwear,14,New,Quality Issue,Net Banking,14746,4,4,1,0,30,MEDIUM
+4,Electronics,9,Opened,Defective Product,Debit Card,10489,2,5,1,1,45,MEDIUM
+5,Electronics,12,New,Defective Product,UPI,22841,5,4,1,1,30,MEDIUM
+6,Electronics,3,Damaged,Wrong Product,Cash on Delivery,36478,3,5,1,1,25,LOW
+7,Footwear,22,Opened,Wrong Product,UPI,15235,3,1,0,1,55,MEDIUM
+8,Clothing,15,New,Defective Product,Debit Card,41960,3,2,0,0,40,MEDIUM
+9,Home Appliances,23,Used,Quality Issue,Debit Card,45096,1,2,0,0,80,HIGH
+10,Footwear,13,Opened,Size Issue,Cash on Delivery,17991,5,3,1,0,45,MEDIUM
+11,Furniture,27,Used,Damaged Product,Credit Card,2403,3,6,0,1,90,HIGH
+12,Home Appliances,29,New,Quality Issue,Net Banking,47349,3,3,0,1,50,MEDIUM
+13,Furniture,5,Damaged,Defective Product,Cash on Delivery,17659,2,3,1,1,25,LOW
+14,Furniture,13,Used,Defective Product,Net Banking,24023,2,2,1,1,60,HIGH
+15,Footwear,28,Damaged,Wrong Product,UPI,7485,2,2,0,1,55,MEDIUM
+16,Furniture,13,Damaged,Wrong Product,Cash on Delivery,39352,4,8,1,1,45,MEDIUM
+17,Home Appliances,25,New,Wrong Product,Net Banking,17786,3,1,0,1,40,MEDIUM
+18,Home Appliances,1,Damaged,Size Issue,Cash on Delivery,47623,3,8,1,1,25,LOW
+19,Clothing,20,New,Changed Mind,Net Banking,13335,2,5,0,0,70,HIGH
+20,Clothing,1,New,Not Needed,Cash on Delivery,7631,3,4,1,1,10,LOW
+21,Clothing,3,New,Quality Issue,Net Banking,5913,4,1,1,1,0,LOW
+22,Footwear,18,Opened,Size Issue,Cash on Delivery,11121,3,8,0,0,75,HIGH
+23,Footwear,25,Damaged,Quality Issue,Net Banking,48136,2,4,0,0,65,HIGH
+24,Beauty,15,Used,Late Delivery,Net Banking,8230,2,3,0,0,90,HIGH
+25,Electronics,18,Used,Damaged Product,Net Banking,15380,5,3,0,1,80,HIGH
+26,Electronics,3,New,Damaged Product,Credit Card,2358,3,1,1,1,0,LOW
+27,Footwear,7,Opened,Changed Mind,Cash on Delivery,35639,2,7,1,1,45,MEDIUM
+28,Clothing,4,Damaged,Defective Product,Credit Card,6652,4,5,1,1,25,LOW
+29,Beauty,22,Damaged,Late Delivery,UPI,43124,1,0,0,0,55,MEDIUM
+30,Beauty,7,Used,Wrong Product,Credit Card,12765,5,7,1,1,50,MEDIUM
+31,Clothing,15,Damaged,Size Issue,Debit Card,16671,1,7,0,0,75,HIGH
+32,Footwear,27,New,Damaged Product,Net Banking,1267,1,3,0,1,60,HIGH
+33,Clothing,7,Damaged,Late Delivery,Cash on Delivery,26582,1,2,1,1,15,LOW
+34,Beauty,30,New,Defective Product,Debit Card,30119,3,6,0,0,60,HIGH
+35,Furniture,10,Damaged,Size Issue,Credit Card,14567,1,8,1,0,35,MEDIUM
+36,Electronics,19,Used,Damaged Product,UPI,31546,5,8,0,0,90,HIGH
+37,Clothing,3,New,Wrong Product,Credit Card,39296,1,3,1,1,20,LOW
+38,Beauty,20,New,Quality Issue,Net Banking,2904,5,1,0,0,40,MEDIUM
+39,Beauty,22,Used,Changed Mind,Credit Card,47236,3,3,0,0,80,HIGH
+40,Home Appliances,15,Damaged,Size Issue,Debit Card,21020,1,0,0,0,55,MEDIUM
+41,Beauty,7,New,Wrong Product,Net Banking,33453,3,2,1,1,0,LOW
+42,Home Appliances,10,New,Quality Issue,Debit Card,10638,4,8,1,1,20,LOW
+43,Furniture,10,Used,Damaged Product,Net Banking,43775,1,2,1,1,40,MEDIUM
+44,Home Appliances,5,New,Wrong Product,Net Banking,18148,3,3,1,0,10,LOW
+45,Furniture,17,Used,Quality Issue,Debit Card,32316,3,0,0,0,70,HIGH
+46,Electronics,1,Damaged,Changed Mind,UPI,22159,2,4,1,1,25,LOW
+47,Clothing,1,Damaged,Defective Product,Net Banking,7631,1,2,1,1,15,LOW
+48,Footwear,18,New,Not Needed,Net Banking,10005,4,2,0,0,40,MEDIUM
+49,Electronics,29,Used,Not Needed,UPI,23749,2,3,0,0,90,HIGH
+50,Furniture,29,New,Not Needed,Net Banking,26932,5,2,0,0,40,MEDIUM
+51,Clothing,1,Opened,Size Issue,Cash on Delivery,12054,3,6,1,0,35,MEDIUM
+52,Furniture,26,Opened,Changed Mind,Credit Card,46258,1,6,0,1,85,HIGH
+53,Electronics,27,Damaged,Quality Issue,Credit Card,30466,3,4,0,1,55,MEDIUM
+54,Clothing,13,Opened,Damaged Product,Credit Card,21812,3,1,1,0,35,MEDIUM
+55,Home Appliances,11,Used,Defective Product,Net Banking,2108,1,4,1,1,70,HIGH
+56,Clothing,20,Used,Damaged Product,UPI,28779,3,5,0,0,90,HIGH
+57,Beauty,7,New,Defective Product,Net Banking,16993,1,6,1,1,30,MEDIUM
+58,Electronics,3,Opened,Not Needed,Cash on Delivery,43831,3,5,1,1,35,MEDIUM
+59,Furniture,10,New,Changed Mind,Net Banking,44005,4,5,1,1,20,LOW
+60,Beauty,14,Used,Size Issue,Credit Card,43876,4,2,1,0,50,MEDIUM
+61,Footwear,27,Used,Defective Product,Net Banking,326,3,4,0,1,80,HIGH
+62,Clothing,15,Damaged,Not Needed,Cash on Delivery,29277,2,8,0,0,75,HIGH
+63,Beauty,17,Opened,Wrong Product,Debit Card,43806,5,5,0,0,75,HIGH
+64,Electronics,26,Opened,Changed Mind,Credit Card,13350,2,0,0,0,65,HIGH
+65,Electronics,28,Opened,Late Delivery,Net Banking,5072,4,6,0,0,75,HIGH
+66,Furniture,13,Opened,Defective Product,Cash on Delivery,16289,2,0,1,1,45,MEDIUM
+67,Electronics,26,Damaged,Quality Issue,Credit Card,45907,5,7,0,0,65,HIGH
+68,Electronics,5,Opened,Wrong Product,Cash on Delivery,30750,5,8,1,0,35,MEDIUM
+69,Footwear,27,Used,Late Delivery,Net Banking,47438,5,6,0,0,90,HIGH
+70,Footwear,15,Damaged,Size Issue,Cash on Delivery,17286,2,4,0,1,65,HIGH
+71,Footwear,15,Damaged,Quality Issue,Debit Card,5377,3,3,0,1,55,MEDIUM
+72,Home Appliances,3,Used,Not Needed,Net Banking,9368,2,3,1,0,50,MEDIUM
+73,Beauty,14,Opened,Quality Issue,UPI,27012,3,8,1,1,55,MEDIUM
+74,Beauty,27,Damaged,Damaged Product,Credit Card,27834,4,0,0,1,45,MEDIUM
+75,Footwear,12,Damaged,Late Delivery,UPI,19869,4,6,1,1,45,MEDIUM
+76,Footwear,9,Opened,Late Delivery,Credit Card,28862,4,0,1,0,15,LOW
+77,Beauty,27,Used,Defective Product,Credit Card,30930,2,8,0,0,100,HIGH
+78,Electronics,21,Damaged,Damaged Product,UPI,28389,2,7,0,1,75,HIGH
+79,Clothing,11,New,Changed Mind,Cash on Delivery,14171,4,5,1,1,40,MEDIUM
+80,Home Appliances,9,Damaged,Changed Mind,Cash on Delivery,5667,4,0,1,1,5,LOW
+81,Furniture,21,New,Not Needed,Credit Card,4796,1,0,0,1,50,MEDIUM
+82,Clothing,5,Opened,Damaged Product,Net Banking,15933,2,7,1,1,45,MEDIUM
+83,Furniture,23,New,Quality Issue,Cash on Delivery,17093,3,2,0,0,40,MEDIUM
+84,Footwear,4,New,Size Issue,Debit Card,38224,1,4,1,1,20,LOW
+85,Footwear,3,Damaged,Defective Product,Credit Card,39103,2,1,1,1,15,LOW
+86,Furniture,26,Used,Wrong Product,Net Banking,2991,3,8,0,1,90,HIGH
+87,Beauty,21,Used,Wrong Product,Net Banking,22662,1,6,0,0,100,HIGH
+88,Beauty,21,New,Defective Product,Debit Card,30429,2,6,0,1,70,HIGH
+89,Clothing,14,Used,Late Delivery,Cash on Delivery,48208,5,4,1,1,60,HIGH
+90,Home Appliances,29,Opened,Wrong Product,Debit Card,29843,2,7,0,1,85,HIGH
+91,Footwear,16,Damaged,Not Needed,UPI,21600,2,7,0,0,75,HIGH
+92,Clothing,9,Used,Changed Mind,Debit Card,39369,3,8,1,1,50,MEDIUM
+93,Electronics,24,Opened,Wrong Product,Credit Card,26935,4,8,0,1,75,HIGH
+94,Clothing,26,Damaged,Late Delivery,Cash on Delivery,1430,1,4,0,0,65,HIGH
+95,Clothing,22,Damaged,Quality Issue,Debit Card,38412,3,7,0,1,65,HIGH
+96,Footwear,11,Used,Defective Product,Net Banking,23356,4,4,1,1,60,HIGH
+97,Home Appliances,24,Used,Quality Issue,UPI,12921,3,1,0,0,70,HIGH
+98,Furniture,24,Opened,Quality Issue,Credit Card,32032,3,8,0,0,75,HIGH
+99,Footwear,10,Used,Wrong Product,Credit Card,15208,3,2,1,1,30,MEDIUM
+100,Home Appliances,2,New,Size Issue,Debit Card,3873,5,4,1,1,10,LOW
+101,Furniture,28,Opened,Late Delivery,UPI,1103,5,4,0,0,65,HIGH
+102,Beauty,6,Damaged,Late Delivery,Debit Card,3667,3,7,1,1,25,LOW
+103,Electronics,3,New,Defective Product,Cash on Delivery,38115,1,2,1,1,10,LOW
+104,Clothing,4,Used,Wrong Product,Credit Card,36873,4,3,1,1,40,MEDIUM
+105,Footwear,10,Damaged,Late Delivery,Cash on Delivery,38869,4,4,1,0,15,LOW
+106,Footwear,21,New,Wrong Product,Credit Card,14129,3,1,0,1,40,MEDIUM
+107,Clothing,3,Opened,Size Issue,Net Banking,10558,1,6,1,1,45,MEDIUM
+108,Beauty,8,Damaged,Changed Mind,UPI,19181,3,7,1,0,25,LOW
+109,Electronics,22,Opened,Changed Mind,Net Banking,13264,4,1,0,0,55,MEDIUM
+110,Footwear,27,Opened,Size Issue,Debit Card,9621,1,0,0,0,65,HIGH
+111,Clothing,4,Used,Changed Mind,Cash on Delivery,31016,3,6,1,0,50,MEDIUM
+112,Home Appliances,20,Damaged,Late Delivery,UPI,2912,4,5,0,0,65,HIGH
+113,Footwear,8,Used,Damaged Product,UPI,44490,5,0,1,0,30,MEDIUM
+114,Furniture,16,Used,Damaged Product,Credit Card,34310,4,4,0,0,80,HIGH
+115,Clothing,16,Damaged,Late Delivery,UPI,23103,4,5,0,0,65,HIGH
+116,Home Appliances,14,New,Size Issue,Debit Card,45760,4,4,1,0,30,MEDIUM
+117,Furniture,3,Damaged,Damaged Product,Cash on Delivery,20912,3,5,1,1,25,LOW
+118,Electronics,15,Damaged,Damaged Product,Net Banking,27382,1,3,0,1,65,HIGH
+119,Footwear,25,Used,Late Delivery,Cash on Delivery,3682,2,4,0,0,90,HIGH
+120,Footwear,29,Opened,Changed Mind,Cash on Delivery,46060,4,1,0,0,55,MEDIUM
+121,Electronics,18,Opened,Size Issue,Debit Card,1196,5,6,0,1,75,HIGH
+122,Electronics,4,Opened,Wrong Product,Cash on Delivery,42748,2,7,1,0,45,MEDIUM
+123,Furniture,27,Used,Changed Mind,Cash on Delivery,31921,4,3,0,0,80,HIGH
+124,Beauty,30,Opened,Defective Product,Credit Card,39580,5,2,0,1,55,MEDIUM
+125,Electronics,30,Used,Defective Product,Debit Card,33575,3,0,0,1,70,HIGH
+126,Home Appliances,15,Used,Late Delivery,Credit Card,35596,4,5,0,0,90,HIGH
+127,Home Appliances,28,Damaged,Late Delivery,Debit Card,12663,2,6,0,1,75,HIGH
+128,Clothing,24,Damaged,Damaged Product,Debit Card,31296,4,6,0,1,65,HIGH
+129,Furniture,5,Opened,Late Delivery,UPI,33218,5,5,1,1,35,MEDIUM
+130,Electronics,30,Damaged,Wrong Product,Net Banking,30245,1,2,0,1,55,MEDIUM
+131,Beauty,26,Opened,Wrong Product,Cash on Delivery,17668,3,6,0,1,75,HIGH
+132,Furniture,13,New,Not Needed,Net Banking,21052,4,8,1,1,40,MEDIUM
+133,Electronics,8,New,Quality Issue,Debit Card,49240,1,6,1,1,30,MEDIUM
+134,Electronics,23,New,Late Delivery,Credit Card,19925,1,0,0,0,50,MEDIUM
+135,Home Appliances,12,New,Changed Mind,Debit Card,28525,2,3,1,0,40,MEDIUM
+136,Footwear,6,Damaged,Size Issue,Credit Card,5475,5,6,1,1,25,LOW
+137,Footwear,5,Opened,Late Delivery,Net Banking,15516,4,4,1,1,25,LOW
+138,Beauty,29,Used,Damaged Product,Cash on Delivery,19150,5,2,0,0,70,HIGH
+139,Electronics,10,Damaged,Not Needed,Net Banking,42173,4,4,1,1,15,LOW
+140,Beauty,28,Used,Quality Issue,Cash on Delivery,31967,1,3,0,1,90,HIGH
+141,Beauty,1,Used,Changed Mind,Debit Card,43437,4,4,1,1,40,MEDIUM
+142,Electronics,25,New,Late Delivery,Debit Card,15381,5,5,0,0,60,HIGH
+143,Clothing,21,Opened,Changed Mind,Credit Card,6667,1,4,0,0,75,HIGH
+144,Beauty,3,New,Not Needed,Credit Card,19640,3,6,1,1,20,LOW
+145,Clothing,29,Opened,Size Issue,Net Banking,24276,5,8,0,0,75,HIGH
+146,Home Appliances,26,Opened,Changed Mind,Cash on Delivery,19642,3,1,0,0,55,MEDIUM
+147,Beauty,28,New,Size Issue,Credit Card,44623,4,8,0,0,60,HIGH
+148,Home Appliances,9,New,Defective Product,UPI,35464,1,7,1,1,30,MEDIUM
+149,Home Appliances,4,Used,Defective Product,Debit Card,44526,2,7,1,1,60,HIGH
+150,Electronics,21,Used,Quality Issue,UPI,30726,3,6,0,0,90,HIGH
+151,Electronics,10,Opened,Damaged Product,UPI,32584,1,1,1,0,25,LOW
+152,Clothing,12,Opened,Defective Product,Cash on Delivery,44240,5,6,1,1,55,MEDIUM
+153,Footwear,27,Opened,Defective Product,UPI,32369,5,6,0,1,75,HIGH
+154,Home Appliances,15,New,Not Needed,Credit Card,29443,2,5,0,0,70,HIGH
+155,Electronics,13,Used,Not Needed,UPI,18380,2,1,1,1,60,HIGH
+156,Beauty,1,New,Quality Issue,Net Banking,3614,3,3,1,1,10,LOW
+157,Clothing,7,Opened,Wrong Product,Net Banking,38729,2,3,1,1,35,MEDIUM
+158,Home Appliances,28,Opened,Damaged Product,Debit Card,9782,2,8,0,1,85,HIGH
+159,Home Appliances,5,Opened,Wrong Product,UPI,1273,3,3,1,1,25,LOW
+160,Footwear,9,Used,Damaged Product,Credit Card,3734,2,6,1,0,60,HIGH
+161,Footwear,15,New,Wrong Product,Cash on Delivery,24026,5,1,0,1,40,MEDIUM
+162,Beauty,10,Opened,Damaged Product,Net Banking,30318,1,0,1,1,25,LOW
+163,Beauty,16,Damaged,Defective Product,UPI,46987,4,1,0,1,45,MEDIUM
+164,Electronics,5,Used,Size Issue,UPI,18323,5,8,1,0,50,MEDIUM
+165,Furniture,17,Used,Defective Product,Net Banking,19626,4,8,0,1,90,HIGH
+166,Footwear,28,Damaged,Wrong Product,UPI,43207,5,3,0,1,55,MEDIUM
+167,Beauty,11,Damaged,Quality Issue,Cash on Delivery,30020,4,6,1,1,45,MEDIUM
+168,Furniture,11,New,Not Needed,Cash on Delivery,43888,3,5,1,1,40,MEDIUM
+169,Clothing,27,Damaged,Wrong Product,UPI,5894,1,6,0,1,75,HIGH
+170,Electronics,2,Used,Size Issue,Net Banking,38734,5,8,1,1,50,MEDIUM
+171,Home Appliances,28,New,Defective Product,Debit Card,43903,4,0,0,1,40,MEDIUM
+172,Home Appliances,19,Used,Not Needed,UPI,33553,2,2,0,0,80,HIGH
+173,Furniture,12,Damaged,Quality Issue,UPI,36755,3,1,1,1,25,LOW
+174,Home Appliances,25,Opened,Defective Product,Net Banking,41045,5,8,0,1,75,HIGH
+175,Electronics,9,Used,Damaged Product,Credit Card,46352,3,5,1,0,50,MEDIUM
+176,Home Appliances,19,New,Size Issue,Credit Card,43379,4,1,0,0,40,MEDIUM
+177,Clothing,7,New,Wrong Product,Net Banking,24954,4,7,1,1,20,LOW
+178,Home Appliances,24,Opened,Not Needed,Debit Card,21558,5,1,0,0,55,MEDIUM
+179,Electronics,2,Opened,Size Issue,Net Banking,44469,1,4,1,0,35,MEDIUM
+180,Beauty,15,Damaged,Late Delivery,Net Banking,27443,3,3,0,0,55,MEDIUM
+181,Footwear,4,New,Not Needed,Cash on Delivery,18862,5,7,1,1,20,LOW
+182,Footwear,13,Used,Damaged Product,Credit Card,39577,1,0,1,1,60,HIGH
+183,Clothing,25,Used,Quality Issue,Credit Card,17045,3,5,0,0,90,HIGH
+184,Electronics,6,New,Late Delivery,Cash on Delivery,8766,4,8,1,0,20,LOW
+185,Furniture,13,Opened,Not Needed,UPI,48930,1,6,1,1,65,HIGH
+186,Electronics,19,Damaged,Wrong Product,Debit Card,28433,5,6,0,1,65,HIGH
+187,Furniture,13,Damaged,Changed Mind,UPI,1666,3,2,1,0,25,LOW
+188,Footwear,14,Damaged,Not Needed,UPI,7237,2,6,1,1,55,MEDIUM
+189,Footwear,28,Damaged,Wrong Product,Cash on Delivery,20634,3,3,0,1,55,MEDIUM
+190,Home Appliances,21,Opened,Wrong Product,Net Banking,7772,5,8,0,1,75,HIGH
+191,Clothing,8,Used,Not Needed,Credit Card,7037,2,4,1,0,50,MEDIUM
+192,Clothing,6,Opened,Size Issue,UPI,41453,4,7,1,0,35,MEDIUM
+193,Footwear,5,Damaged,Not Needed,Debit Card,29120,1,7,1,0,35,MEDIUM
+194,Beauty,2,Used,Changed Mind,Net Banking,23364,5,1,1,1,30,MEDIUM
+195,Home Appliances,2,Damaged,Late Delivery,UPI,24465,3,1,1,1,5,LOW
+196,Furniture,19,New,Defective Product,Cash on Delivery,36627,1,7,0,1,70,HIGH
+197,Footwear,16,Opened,Not Needed,Net Banking,33157,2,0,0,0,65,HIGH
+198,Beauty,17,New,Not Needed,UPI,42644,2,0,0,1,50,MEDIUM
+199,Clothing,17,Damaged,Late Delivery,Net Banking,40264,2,5,0,1,75,HIGH
+200,Home Appliances,25,Used,Defective Product,Cash on Delivery,22475,5,0,0,0,70,HIGH
+201,Furniture,4,Used,Wrong Product,Debit Card,36866,4,4,1,0,40,MEDIUM
+202,Home Appliances,19,Opened,Not Needed,UPI,43790,2,5,0,0,85,HIGH
+203,Home Appliances,23,Damaged,Size Issue,Net Banking,5852,3,8,0,0,65,HIGH
+204,Beauty,3,Used,Size Issue,Net Banking,42637,4,8,1,1,50,MEDIUM
+205,Home Appliances,6,New,Not Needed,Debit Card,14337,3,7,1,1,20,LOW
+206,Clothing,3,Opened,Size Issue,Credit Card,19685,1,8,1,1,45,MEDIUM
+207,Footwear,5,New,Not Needed,Net Banking,39441,4,2,1,1,0,LOW
+208,Clothing,2,Opened,Size Issue,Cash on Delivery,27226,3,3,1,0,25,LOW
+209,Beauty,18,Used,Late Delivery,Credit Card,15974,3,7,0,0,90,HIGH
+210,Clothing,25,Used,Late Delivery,Cash on Delivery,18766,4,8,0,0,90,HIGH
+211,Footwear,26,Damaged,Size Issue,Credit Card,39927,2,4,0,0,65,HIGH
+212,Electronics,30,Damaged,Not Needed,Net Banking,7023,5,1,0,1,45,MEDIUM
+213,Home Appliances,15,New,Size Issue,Debit Card,33943,2,6,0,0,70,HIGH
+214,Electronics,30,Opened,Late Delivery,Debit Card,2047,4,0,0,0,55,MEDIUM
+215,Beauty,3,Used,Quality Issue,Cash on Delivery,24870,2,0,1,1,40,MEDIUM
+216,Home Appliances,5,New,Not Needed,Credit Card,2810,3,7,1,1,20,LOW
+217,Furniture,20,Opened,Late Delivery,Cash on Delivery,644,1,0,0,0,65,HIGH
+218,Home Appliances,24,Opened,Size Issue,Net Banking,40203,5,6,0,0,75,HIGH
+219,Electronics,4,Used,Quality Issue,Debit Card,3429,2,6,1,1,60,HIGH
+220,Furniture,27,Damaged,Wrong Product,UPI,33056,5,8,0,1,65,HIGH
+221,Electronics,14,Opened,Size Issue,Debit Card,402,5,5,1,0,55,MEDIUM
+222,Clothing,17,Damaged,Size Issue,UPI,23932,1,8,0,0,75,HIGH
+223,Footwear,2,New,Defective Product,Cash on Delivery,41959,4,5,1,1,20,LOW
+224,Home Appliances,12,New,Not Needed,UPI,16102,1,5,1,1,50,MEDIUM
+225,Clothing,11,New,Not Needed,Net Banking,42426,2,7,1,1,50,MEDIUM
+226,Furniture,3,Damaged,Size Issue,Credit Card,47226,4,0,1,1,5,LOW
+227,Home Appliances,29,Opened,Damaged Product,Credit Card,3046,3,4,0,0,65,HIGH
+228,Footwear,2,Damaged,Late Delivery,Debit Card,49667,2,4,1,1,25,LOW
+229,Home Appliances,4,New,Not Needed,Debit Card,24418,4,6,1,0,20,LOW
+230,Furniture,6,Damaged,Defective Product,Debit Card,32819,4,5,1,1,25,LOW
+231,Footwear,3,Used,Wrong Product,Cash on Delivery,28520,5,2,1,0,30,MEDIUM
+232,Footwear,3,Used,Not Needed,UPI,21790,3,4,1,0,40,MEDIUM
+233,Beauty,12,Damaged,Size Issue,Cash on Delivery,29603,1,5,1,1,55,MEDIUM
+234,Footwear,3,Damaged,Changed Mind,UPI,44286,4,5,1,1,25,LOW
+235,Footwear,28,Opened,Damaged Product,Credit Card,40117,4,0,0,1,55,MEDIUM
+236,Clothing,12,New,Quality Issue,Debit Card,25390,5,0,1,0,20,LOW
+237,Footwear,12,Opened,Late Delivery,Debit Card,29394,1,2,1,1,45,MEDIUM
+238,Footwear,21,Used,Defective Product,Debit Card,18564,2,1,0,1,80,HIGH
+239,Electronics,13,Opened,Late Delivery,Net Banking,37109,1,4,1,1,55,MEDIUM
+240,Home Appliances,10,Damaged,Quality Issue,Net Banking,45780,4,3,1,1,15,LOW
+241,Electronics,6,Opened,Wrong Product,Cash on Delivery,47051,4,1,1,0,15,LOW
+242,Furniture,18,Used,Not Needed,UPI,35831,3,4,0,1,80,HIGH
+243,Clothing,8,Opened,Not Needed,Net Banking,8253,2,2,1,0,25,LOW
+244,Clothing,18,Damaged,Damaged Product,Debit Card,37804,3,7,0,1,65,HIGH
+245,Footwear,10,Opened,Wrong Product,UPI,26393,4,8,1,1,35,MEDIUM
+246,Beauty,11,Damaged,Wrong Product,Credit Card,42396,1,7,1,0,55,MEDIUM
+247,Beauty,21,Used,Size Issue,Net Banking,38821,2,2,0,0,80,HIGH
+248,Beauty,5,New,Wrong Product,Net Banking,20231,2,2,1,0,10,LOW
+249,Home Appliances,29,Opened,Not Needed,Net Banking,18915,1,4,0,1,75,HIGH
+250,Clothing,20,Used,Size Issue,Debit Card,35262,1,8,0,0,100,HIGH
+251,Furniture,22,Opened,Size Issue,Credit Card,41225,5,5,0,0,75,HIGH
+252,Footwear,2,New,Damaged Product,UPI,42338,5,4,1,1,10,LOW
+253,Furniture,21,Opened,Defective Product,Net Banking,2284,4,8,0,0,75,HIGH
+254,Home Appliances,26,Used,Late Delivery,Credit Card,45191,4,4,0,0,80,HIGH
+255,Beauty,15,New,Damaged Product,Credit Card,27538,4,7,0,1,60,HIGH
+256,Clothing,28,Used,Size Issue,Debit Card,47378,3,5,0,0,90,HIGH
+257,Beauty,18,Opened,Not Needed,Net Banking,7258,3,3,0,1,65,HIGH
+258,Beauty,8,New,Changed Mind,Cash on Delivery,9532,1,0,1,0,10,LOW
+259,Home Appliances,28,Damaged,Defective Product,Credit Card,10766,3,5,0,1,65,HIGH
+260,Clothing,15,Opened,Late Delivery,Net Banking,32986,3,7,0,0,75,HIGH
+261,Electronics,15,New,Defective Product,Net Banking,16076,2,5,0,1,70,HIGH
+262,Electronics,20,New,Changed Mind,Cash on Delivery,43177,4,4,0,1,50,MEDIUM
+263,Footwear,5,New,Wrong Product,Cash on Delivery,17632,3,6,1,1,20,LOW
+264,Home Appliances,19,New,Defective Product,UPI,37119,2,5,0,1,70,HIGH
+265,Footwear,17,Used,Wrong Product,Cash on Delivery,29814,5,4,0,0,80,HIGH
+266,Footwear,13,New,Size Issue,UPI,24757,3,8,1,0,40,MEDIUM
+267,Home Appliances,17,Opened,Quality Issue,Net Banking,26605,5,0,0,0,55,MEDIUM
+268,Electronics,26,New,Size Issue,Debit Card,31347,5,7,0,0,60,HIGH
+269,Clothing,11,Opened,Not Needed,Net Banking,10949,4,4,1,1,45,MEDIUM
+270,Footwear,10,Used,Late Delivery,Net Banking,31422,1,5,1,0,60,HIGH
+271,Home Appliances,10,New,Defective Product,Net Banking,47834,1,7,1,0,30,MEDIUM
+272,Home Appliances,16,Opened,Damaged Product,Net Banking,11474,5,6,0,0,75,HIGH
+273,Clothing,23,Opened,Damaged Product,Net Banking,7502,2,0,0,0,65,HIGH
+274,Beauty,14,Used,Defective Product,Credit Card,45552,2,6,1,0,80,HIGH
+275,Footwear,17,Damaged,Damaged Product,Credit Card,13888,5,5,0,1,65,HIGH
+276,Furniture,6,Damaged,Defective Product,Debit Card,30424,5,5,1,1,25,LOW
+277,Footwear,16,Used,Changed Mind,Net Banking,12900,2,4,0,0,90,HIGH
+278,Footwear,25,Used,Quality Issue,Debit Card,19240,2,7,0,0,100,HIGH
+279,Home Appliances,30,Damaged,Not Needed,Net Banking,47594,3,4,0,1,55,MEDIUM
+280,Electronics,25,Damaged,Defective Product,Debit Card,9899,3,0,0,1,45,MEDIUM
+281,Home Appliances,21,New,Not Needed,Cash on Delivery,17106,4,3,0,1,50,MEDIUM
+282,Clothing,4,Used,Changed Mind,Credit Card,40649,5,3,1,0,40,MEDIUM
+283,Clothing,2,New,Quality Issue,Credit Card,6866,4,5,1,1,20,LOW
+284,Furniture,1,Damaged,Wrong Product,Credit Card,36367,2,6,1,1,35,MEDIUM
+285,Furniture,25,Damaged,Late Delivery,Credit Card,19124,3,4,0,0,55,MEDIUM
+286,Furniture,8,New,Wrong Product,Net Banking,35371,1,2,1,1,10,LOW
+287,Beauty,26,Opened,Damaged Product,Cash on Delivery,32765,2,4,0,1,75,HIGH
+288,Electronics,20,New,Changed Mind,Net Banking,7332,3,4,0,0,50,MEDIUM
+289,Beauty,15,Damaged,Size Issue,Net Banking,18180,2,1,0,0,55,MEDIUM
+290,Home Appliances,23,Opened,Late Delivery,Debit Card,12502,1,5,0,0,85,HIGH
+291,Home Appliances,28,Opened,Size Issue,Net Banking,42159,4,6,0,0,75,HIGH
+292,Footwear,22,Used,Wrong Product,Cash on Delivery,6551,2,2,0,1,80,HIGH
+293,Beauty,9,Used,Quality Issue,UPI,25437,2,7,1,1,60,HIGH
+294,Home Appliances,24,Used,Changed Mind,Net Banking,37844,1,4,0,0,90,HIGH
+295,Furniture,22,Used,Quality Issue,UPI,8047,4,4,0,0,80,HIGH
+296,Clothing,21,Damaged,Changed Mind,UPI,19635,3,3,0,0,55,MEDIUM
+297,Clothing,15,Opened,Late Delivery,Credit Card,49303,5,5,0,1,75,HIGH
+298,Beauty,22,Damaged,Quality Issue,Credit Card,49762,5,1,0,0,45,MEDIUM
+299,Footwear,30,Damaged,Not Needed,UPI,37273,1,0,0,0,55,MEDIUM
+300,Footwear,11,Opened,Size Issue,Credit Card,34401,4,1,1,1,35,MEDIUM
+301,Furniture,29,Opened,Late Delivery,UPI,33747,4,0,0,0,55,MEDIUM
+302,Beauty,19,Opened,Defective Product,Cash on Delivery,4083,5,7,0,1,75,HIGH
+303,Furniture,9,Used,Damaged Product,Cash on Delivery,497,2,1,1,1,40,MEDIUM
+304,Electronics,18,Damaged,Not Needed,UPI,4248,1,7,0,0,75,HIGH
+305,Electronics,25,Used,Defective Product,Credit Card,9175,4,5,0,0,90,HIGH
+306,Beauty,3,Damaged,Defective Product,Cash on Delivery,45043,5,2,1,0,5,LOW
+307,Furniture,18,Used,Wrong Product,Credit Card,26059,5,2,0,1,70,HIGH
+308,Furniture,10,Opened,Damaged Product,UPI,30643,5,6,1,1,35,MEDIUM
+309,Footwear,15,Damaged,Quality Issue,Credit Card,22985,2,4,0,1,65,HIGH
+310,Clothing,20,New,Damaged Product,Cash on Delivery,1325,2,3,0,1,60,HIGH
+311,Electronics,20,New,Damaged Product,Cash on Delivery,44341,1,3,0,1,60,HIGH
+312,Furniture,8,New,Defective Product,Cash on Delivery,35673,2,0,1,1,10,LOW
+313,Clothing,11,Used,Quality Issue,Net Banking,38145,5,5,1,0,70,HIGH
+314,Clothing,8,Used,Size Issue,Net Banking,27403,3,4,1,1,40,MEDIUM
+315,Electronics,16,Opened,Defective Product,Net Banking,3372,3,6,0,0,75,HIGH
+316,Footwear,5,Used,Defective Product,Cash on Delivery,19953,4,2,1,0,30,MEDIUM
+317,Footwear,10,Damaged,Quality Issue,Credit Card,46671,2,7,1,1,35,MEDIUM
+318,Electronics,17,Damaged,Defective Product,Net Banking,9087,4,3,0,1,55,MEDIUM
+319,Home Appliances,30,Opened,Not Needed,UPI,29777,3,1,0,0,55,MEDIUM
+320,Footwear,13,Opened,Damaged Product,Debit Card,44449,5,0,1,1,35,MEDIUM
+321,Electronics,7,Opened,Quality Issue,Cash on Delivery,22121,3,0,1,1,15,LOW
+322,Clothing,30,Opened,Wrong Product,Cash on Delivery,16198,5,3,0,1,65,HIGH
+323,Beauty,13,Opened,Not Needed,Debit Card,30856,5,5,1,0,55,MEDIUM
+324,Home Appliances,29,Used,Not Needed,Net Banking,32889,4,1,0,0,70,HIGH
+325,Furniture,12,Damaged,Not Needed,Credit Card,20807,4,0,1,0,25,LOW
+326,Footwear,9,Opened,Size Issue,UPI,36561,5,6,1,0,35,MEDIUM
+327,Home Appliances,8,Opened,Quality Issue,Debit Card,25193,5,3,1,1,25,LOW
+328,Beauty,24,Used,Changed Mind,Cash on Delivery,42354,4,7,0,0,90,HIGH
+329,Clothing,24,Used,Size Issue,Credit Card,36118,4,2,0,0,70,HIGH
+330,Footwear,27,New,Damaged Product,UPI,44092,1,0,0,1,50,MEDIUM
+331,Beauty,23,Opened,Quality Issue,UPI,10197,1,3,0,0,75,HIGH
+332,Footwear,20,Damaged,Not Needed,UPI,42094,5,7,0,1,65,HIGH
+333,Furniture,18,Damaged,Damaged Product,UPI,36452,4,0,0,1,45,MEDIUM
+334,Electronics,17,Used,Changed Mind,UPI,46034,4,2,0,0,70,HIGH
+335,Electronics,7,New,Size Issue,Credit Card,40917,5,4,1,1,10,LOW
+336,Home Appliances,12,Used,Defective Product,UPI,26909,4,3,1,1,60,HIGH
+337,Furniture,21,Opened,Changed Mind,UPI,42891,1,1,0,1,65,HIGH
+338,Beauty,16,Damaged,Defective Product,Net Banking,3977,1,2,0,1,55,MEDIUM
+339,Electronics,19,Damaged,Defective Product,Debit Card,6549,5,0,0,1,45,MEDIUM
+340,Clothing,2,Opened,Late Delivery,Debit Card,5172,3,8,1,1,35,MEDIUM
+341,Footwear,1,New,Size Issue,Debit Card,13876,5,2,1,1,0,LOW
+342,Furniture,6,Damaged,Wrong Product,Debit Card,37259,2,6,1,1,35,MEDIUM
+343,Furniture,26,Used,Defective Product,Credit Card,45474,1,8,0,1,100,HIGH
+344,Furniture,14,Used,Damaged Product,UPI,15513,1,5,1,1,80,HIGH
+345,Footwear,21,Damaged,Not Needed,UPI,18212,4,7,0,0,65,HIGH
+346,Clothing,6,Used,Defective Product,Cash on Delivery,44844,5,6,1,0,50,MEDIUM
+347,Electronics,3,Used,Quality Issue,UPI,17861,2,6,1,1,60,HIGH
+348,Furniture,12,Opened,Defective Product,Debit Card,7282,1,0,1,1,45,MEDIUM
+349,Home Appliances,4,Damaged,Not Needed,Debit Card,8983,1,2,1,1,15,LOW
+350,Beauty,1,Damaged,Defective Product,UPI,6173,3,8,1,1,25,LOW
+351,Electronics,10,Used,Defective Product,UPI,27419,4,1,1,1,30,MEDIUM
+352,Furniture,6,Opened,Size Issue,Cash on Delivery,9399,3,4,1,0,25,LOW
+353,Home Appliances,6,Damaged,Size Issue,UPI,28786,3,6,1,1,25,LOW
+354,Home Appliances,9,Damaged,Wrong Product,Debit Card,16460,4,3,1,1,15,LOW
+355,Beauty,1,New,Size Issue,Debit Card,26232,3,6,1,1,20,LOW
+356,Home Appliances,27,Damaged,Not Needed,Cash on Delivery,42966,5,2,0,0,45,MEDIUM
+357,Home Appliances,11,Used,Quality Issue,Cash on Delivery,11941,4,5,1,0,70,HIGH
+358,Home Appliances,13,Damaged,Quality Issue,Debit Card,18669,4,5,1,1,45,MEDIUM
+359,Electronics,1,Opened,Size Issue,Net Banking,47958,4,3,1,0,25,LOW
+360,Beauty,22,Used,Wrong Product,Cash on Delivery,33022,2,4,0,1,90,HIGH
+361,Clothing,26,Used,Size Issue,Cash on Delivery,25006,1,7,0,0,100,HIGH
+362,Footwear,17,Damaged,Defective Product,Net Banking,45631,4,8,0,1,65,HIGH
+363,Electronics,25,Used,Wrong Product,UPI,16568,3,2,0,1,70,HIGH
+364,Furniture,26,New,Defective Product,Debit Card,28510,1,0,0,1,50,MEDIUM
+365,Electronics,24,Used,Quality Issue,Net Banking,34299,5,3,0,0,80,HIGH
+366,Beauty,25,Used,Defective Product,Cash on Delivery,44835,5,8,0,1,90,HIGH
+367,Clothing,4,Used,Damaged Product,Cash on Delivery,19661,4,1,1,0,30,MEDIUM
+368,Electronics,11,Opened,Not Needed,Debit Card,30140,2,8,1,0,65,HIGH
+369,Beauty,15,Used,Late Delivery,UPI,47616,4,5,0,0,90,HIGH
+370,Electronics,1,Used,Damaged Product,UPI,22783,1,2,1,1,40,MEDIUM
+371,Furniture,6,Opened,Size Issue,Net Banking,21991,5,6,1,1,35,MEDIUM
+372,Beauty,6,Opened,Defective Product,Credit Card,42274,4,6,1,1,35,MEDIUM
+373,Electronics,14,Opened,Late Delivery,Net Banking,25782,1,3,1,1,55,MEDIUM
+374,Clothing,4,Used,Wrong Product,Net Banking,35485,2,5,1,0,60,HIGH
+375,Home Appliances,9,Opened,Late Delivery,UPI,44255,4,8,1,1,35,MEDIUM
+376,Furniture,13,Used,Defective Product,Net Banking,38769,1,5,1,1,80,HIGH
+377,Home Appliances,30,Damaged,Size Issue,Debit Card,40570,5,1,0,1,45,MEDIUM
+378,Furniture,8,Opened,Not Needed,UPI,20313,1,2,1,1,25,LOW
+379,Home Appliances,20,Opened,Defective Product,Cash on Delivery,9335,5,6,0,0,75,HIGH
+380,Beauty,23,Opened,Late Delivery,Net Banking,42587,2,8,0,0,85,HIGH
+381,Clothing,6,Damaged,Changed Mind,Credit Card,20916,4,0,1,1,5,LOW
+382,Home Appliances,7,New,Late Delivery,Credit Card,25462,5,8,1,0,20,LOW
+383,Furniture,14,Damaged,Defective Product,Cash on Delivery,46839,4,7,1,1,45,MEDIUM
+384,Clothing,10,New,Damaged Product,Credit Card,2442,3,3,1,0,10,LOW
+385,Footwear,19,Used,Size Issue,Cash on Delivery,48961,4,8,0,0,90,HIGH
+386,Footwear,25,New,Wrong Product,Debit Card,35893,3,8,0,0,60,HIGH
+387,Electronics,4,Damaged,Quality Issue,Cash on Delivery,48533,2,4,1,1,25,LOW
+388,Electronics,28,Damaged,Changed Mind,Debit Card,6000,4,1,0,0,45,MEDIUM
+389,Clothing,21,Opened,Not Needed,Net Banking,28360,2,2,0,1,65,HIGH
+390,Clothing,12,Opened,Damaged Product,Net Banking,35183,3,8,1,0,55,MEDIUM
+391,Clothing,19,Used,Changed Mind,Debit Card,17820,5,1,0,1,70,HIGH
+392,Clothing,28,Damaged,Damaged Product,Debit Card,43284,2,2,0,1,55,MEDIUM
+393,Clothing,25,Opened,Not Needed,Credit Card,44617,4,7,0,0,75,HIGH
+394,Clothing,15,Used,Defective Product,Cash on Delivery,5249,1,6,0,0,100,HIGH
+395,Footwear,16,Used,Not Needed,Cash on Delivery,21749,5,0,0,0,70,HIGH
+396,Furniture,28,New,Late Delivery,Debit Card,4450,5,6,0,1,60,HIGH
+397,Clothing,9,Damaged,Quality Issue,Cash on Delivery,21459,3,5,1,0,25,LOW
+398,Footwear,29,Opened,Late Delivery,Debit Card,45031,1,0,0,0,65,HIGH
+399,Electronics,30,Damaged,Damaged Product,UPI,10653,4,7,0,1,65,HIGH
+400,Electronics,29,Damaged,Quality Issue,Credit Card,42898,3,2,0,1,45,MEDIUM
+401,Home Appliances,3,New,Not Needed,Debit Card,24669,2,0,1,1,10,LOW
+402,Beauty,21,Used,Quality Issue,Cash on Delivery,6276,1,0,0,0,80,HIGH
+403,Clothing,19,Damaged,Wrong Product,Credit Card,15123,5,7,0,1,65,HIGH
+404,Electronics,28,New,Not Needed,UPI,27976,2,7,0,1,70,HIGH
+405,Electronics,24,Opened,Defective Product,UPI,7012,1,5,0,1,85,HIGH
+406,Home Appliances,25,Used,Size Issue,Cash on Delivery,49658,2,2,0,0,80,HIGH
+407,Electronics,12,New,Size Issue,Cash on Delivery,47645,2,2,1,1,30,MEDIUM
+408,Beauty,29,Damaged,Quality Issue,UPI,6884,2,1,0,0,55,MEDIUM
+409,Footwear,11,Damaged,Not Needed,Cash on Delivery,9463,2,4,1,0,45,MEDIUM
+410,Furniture,20,New,Quality Issue,Net Banking,39622,5,4,0,0,50,MEDIUM
+411,Furniture,17,New,Changed Mind,Credit Card,40075,5,3,0,0,50,MEDIUM
+412,Furniture,26,Damaged,Changed Mind,UPI,15985,4,6,0,1,65,HIGH
+413,Electronics,3,Opened,Late Delivery,Net Banking,34921,1,5,1,0,45,MEDIUM
+414,Home Appliances,14,Opened,Defective Product,Net Banking,24247,5,2,1,1,35,MEDIUM
+415,Beauty,3,New,Damaged Product,Net Banking,1203,3,3,1,1,10,LOW
+416,Electronics,10,New,Defective Product,Net Banking,41494,5,6,1,1,20,LOW
+417,Beauty,18,Damaged,Wrong Product,Net Banking,40673,2,4,0,1,65,HIGH
+418,Electronics,30,Used,Wrong Product,Net Banking,13616,2,8,0,1,100,HIGH
+419,Home Appliances,23,Damaged,Wrong Product,Debit Card,28971,2,0,0,1,55,MEDIUM
+420,Clothing,15,New,Defective Product,UPI,40427,5,0,0,1,40,MEDIUM
+421,Home Appliances,23,Opened,Wrong Product,UPI,9292,1,2,0,1,65,HIGH
+422,Beauty,12,Used,Changed Mind,Credit Card,8618,3,1,1,1,50,MEDIUM
+423,Electronics,17,Used,Defective Product,Debit Card,4485,3,1,0,1,70,HIGH
+424,Beauty,16,Damaged,Not Needed,UPI,37451,2,5,0,0,75,HIGH
+425,Clothing,22,Used,Wrong Product,Net Banking,47668,1,3,0,1,90,HIGH
+426,Furniture,8,New,Damaged Product,UPI,3313,4,5,1,1,20,LOW
+427,Beauty,18,Opened,Size Issue,UPI,47094,4,3,0,0,65,HIGH
+428,Home Appliances,9,Opened,Defective Product,Debit Card,5404,5,5,1,0,35,MEDIUM
+429,Electronics,26,New,Size Issue,Credit Card,34101,1,6,0,0,70,HIGH
+430,Electronics,11,Damaged,Changed Mind,Debit Card,5961,5,7,1,1,45,MEDIUM
+431,Electronics,19,Used,Quality Issue,Debit Card,20217,5,3,0,0,80,HIGH
+432,Beauty,24,Used,Late Delivery,Credit Card,36119,2,2,0,0,80,HIGH
+433,Electronics,18,Damaged,Damaged Product,Credit Card,23003,1,5,0,1,75,HIGH
+434,Electronics,7,Damaged,Changed Mind,UPI,35021,2,6,1,1,35,MEDIUM
+435,Beauty,3,New,Size Issue,Debit Card,3177,2,8,1,1,30,MEDIUM
+436,Beauty,19,Used,Late Delivery,UPI,6563,5,2,0,0,70,HIGH
+437,Furniture,19,Damaged,Wrong Product,Net Banking,4381,4,2,0,1,45,MEDIUM
+438,Clothing,30,Used,Changed Mind,Debit Card,26052,3,5,0,0,90,HIGH
+439,Beauty,7,Used,Quality Issue,UPI,9220,5,1,1,1,30,MEDIUM
+440,Clothing,15,New,Size Issue,Cash on Delivery,20880,4,1,0,0,40,MEDIUM
+441,Footwear,10,Used,Quality Issue,Cash on Delivery,30665,3,1,1,0,30,MEDIUM
+442,Electronics,2,Opened,Changed Mind,Net Banking,14391,3,2,1,0,15,LOW
+443,Electronics,17,Opened,Not Needed,Cash on Delivery,3508,3,4,0,0,65,HIGH
+444,Clothing,18,New,Defective Product,Cash on Delivery,49326,5,3,0,1,50,MEDIUM
+445,Electronics,4,Damaged,Wrong Product,Credit Card,1083,1,3,1,1,25,LOW
+446,Clothing,22,Opened,Defective Product,Debit Card,41607,1,4,0,0,75,HIGH
+447,Electronics,29,New,Wrong Product,Credit Card,42635,4,2,0,0,40,MEDIUM
+448,Electronics,15,Used,Wrong Product,UPI,3618,2,6,0,0,100,HIGH
+449,Furniture,13,Damaged,Late Delivery,UPI,45075,4,2,1,1,25,LOW
+450,Home Appliances,9,Opened,Size Issue,Debit Card,29529,2,0,1,1,25,LOW
+451,Footwear,14,Opened,Changed Mind,Cash on Delivery,36389,4,0,1,0,35,MEDIUM
+452,Electronics,14,Used,Defective Product,Credit Card,13371,5,3,1,1,60,HIGH
+453,Furniture,16,New,Defective Product,Debit Card,35985,4,5,0,1,60,HIGH
+454,Footwear,6,Used,Defective Product,Debit Card,2008,3,3,1,0,40,MEDIUM
+455,Electronics,17,Used,Damaged Product,Cash on Delivery,23724,5,3,0,1,80,HIGH
+456,Clothing,9,New,Quality Issue,Credit Card,35275,1,3,1,1,20,LOW
+457,Footwear,6,Damaged,Not Needed,Credit Card,15802,5,5,1,1,25,LOW
+458,Furniture,19,Used,Damaged Product,Debit Card,37236,2,3,0,1,90,HIGH
+459,Beauty,2,Used,Size Issue,Cash on Delivery,6215,1,3,1,0,50,MEDIUM
+460,Footwear,16,Opened,Damaged Product,Net Banking,344,3,3,0,1,65,HIGH
+461,Clothing,2,Used,Size Issue,Debit Card,1736,2,2,1,0,40,MEDIUM
+462,Electronics,23,Used,Wrong Product,Debit Card,43693,4,1,0,0,70,HIGH
+463,Home Appliances,6,Used,Not Needed,Credit Card,48295,4,7,1,1,50,MEDIUM
+464,Furniture,23,Used,Size Issue,Net Banking,40520,3,3,0,0,80,HIGH
+465,Furniture,24,Opened,Defective Product,Debit Card,45421,3,2,0,0,55,MEDIUM
+466,Clothing,2,New,Defective Product,Net Banking,12232,5,5,1,1,20,LOW
+467,Footwear,5,Opened,Wrong Product,Cash on Delivery,22003,1,3,1,1,35,MEDIUM
+468,Home Appliances,27,Used,Size Issue,UPI,46762,3,7,0,0,90,HIGH
+469,Electronics,23,Used,Quality Issue,Credit Card,4742,3,4,0,0,80,HIGH
+470,Electronics,15,New,Damaged Product,Cash on Delivery,48310,4,2,0,0,40,MEDIUM
+471,Beauty,18,Damaged,Defective Product,Debit Card,24898,1,7,0,1,75,HIGH
+472,Footwear,3,Opened,Size Issue,Cash on Delivery,2489,3,0,1,0,15,LOW
+473,Home Appliances,11,Used,Wrong Product,UPI,11448,4,2,1,1,50,MEDIUM
+474,Furniture,20,New,Wrong Product,Debit Card,40515,4,0,0,0,40,MEDIUM
+475,Beauty,2,Opened,Defective Product,Credit Card,6936,3,3,1,1,25,LOW
+476,Clothing,10,Damaged,Changed Mind,Debit Card,15867,1,0,1,0,15,LOW
+477,Beauty,12,Damaged,Size Issue,UPI,550,4,1,1,1,25,LOW
+478,Home Appliances,1,Damaged,Quality Issue,UPI,13862,2,4,1,1,25,LOW
+479,Electronics,26,Damaged,Wrong Product,Debit Card,26348,4,7,0,0,65,HIGH
+480,Furniture,13,Used,Wrong Product,Net Banking,12416,3,6,1,1,70,HIGH
+481,Home Appliances,9,Opened,Late Delivery,UPI,29118,4,4,1,1,25,LOW
+482,Clothing,25,Used,Damaged Product,Credit Card,45943,1,1,0,0,80,HIGH
+483,Furniture,8,Used,Defective Product,Net Banking,36580,1,6,1,1,60,HIGH
+484,Footwear,29,Damaged,Late Delivery,Net Banking,15743,4,4,0,0,55,MEDIUM
+485,Electronics,19,Damaged,Damaged Product,Net Banking,34170,5,2,0,1,45,MEDIUM
+486,Electronics,7,Damaged,Size Issue,Credit Card,12930,2,0,1,0,15,LOW
+487,Beauty,27,New,Defective Product,Credit Card,41405,2,4,0,1,60,HIGH
+488,Home Appliances,18,New,Wrong Product,Cash on Delivery,26341,5,5,0,1,60,HIGH
+489,Home Appliances,19,Damaged,Damaged Product,Net Banking,34546,4,1,0,0,45,MEDIUM
+490,Beauty,19,Opened,Size Issue,Net Banking,38486,1,1,0,1,65,HIGH
+491,Footwear,29,New,Changed Mind,Net Banking,22835,4,4,0,0,50,MEDIUM
+492,Beauty,6,Damaged,Late Delivery,UPI,18349,4,2,1,1,5,LOW
+493,Footwear,29,Damaged,Damaged Product,Cash on Delivery,22024,2,0,0,1,55,MEDIUM
+494,Furniture,1,Damaged,Changed Mind,Debit Card,22442,3,4,1,1,15,LOW
+495,Home Appliances,5,Damaged,Wrong Product,Credit Card,19992,4,5,1,1,25,LOW
+496,Home Appliances,15,Damaged,Wrong Product,Credit Card,14153,4,7,0,1,65,HIGH
+497,Footwear,26,Used,Damaged Product,Net Banking,10718,1,4,0,1,90,HIGH
+498,Furniture,29,Damaged,Size Issue,Net Banking,37568,1,2,0,0,55,MEDIUM
+499,Clothing,2,Opened,Damaged Product,Credit Card,30213,1,5,1,0,45,MEDIUM
+500,Furniture,27,Opened,Changed Mind,Debit Card,30723,5,6,0,1,75,HIGH
