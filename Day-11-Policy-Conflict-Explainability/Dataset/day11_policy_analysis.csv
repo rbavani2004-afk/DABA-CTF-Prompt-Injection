@@ -1,0 +1,2 @@
+conflict_status,conflict_count,conflict_summary
+CONFLICT_DETECTED,1,1 policy conflict(s) detected. Additional validation may be required.

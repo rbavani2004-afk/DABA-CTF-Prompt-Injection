@@ -1,0 +1,6 @@
+test_case,product_category,return_reason,condition,days_after_delivery,risk_score,risk_level,guardrail_status,policy_conflict,conflict_count,retrieved_policies,llm_decision,override_applied,final_decision
+TC01,Electronics,Wrong Product,New,5,0,LOW,STANDARD_VALIDATION,CONFLICT_DETECTED,1,3,REVIEW,True,REVIEW
+TC02,Electronics,Defective Product,Opened,8,15,LOW,STANDARD_VALIDATION,NO_CONFLICT,0,3,REVIEW,False,REVIEW
+TC03,Footwear,Size Issue,New,18,40,MEDIUM,MANUAL_REVIEW_REQUIRED,CONFLICT_DETECTED,1,3,REVIEW,True,REVIEW
+TC04,Home Appliances,Quality Issue,Used,12,70,HIGH,MANUAL_REVIEW_REQUIRED,NO_CONFLICT,0,3,REVIEW,True,REVIEW
+TC05,Beauty,Changed Mind,New,3,0,LOW,STANDARD_VALIDATION,NO_CONFLICT,0,3,APPROVE,False,APPROVE

@@ -1,0 +1,2 @@
+Product Category,Return Reason,Condition,Days After Delivery,Risk Score,Risk Level,Guardrail Status,Retrieved Policies,Policy Conflict,Conflict Count,LLM Decision,Override Applied,Final Decision
+Footwear,Size Issue,New,18,40,MEDIUM,MANUAL_REVIEW_REQUIRED,3,CONFLICT_DETECTED,1,REVIEW,True,REVIEW

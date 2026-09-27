@@ -1,0 +1,6 @@
+test_case,product_category,return_reason,risk_level,policy_conflict,conflict_count,final_decision
+TC01,Electronics,Wrong Product,LOW,CONFLICT_DETECTED,1,REVIEW
+TC02,Electronics,Defective Product,LOW,NO_CONFLICT,0,REVIEW
+TC03,Footwear,Size Issue,MEDIUM,CONFLICT_DETECTED,1,REVIEW
+TC04,Home Appliances,Quality Issue,HIGH,NO_CONFLICT,0,REVIEW
+TC05,Beauty,Changed Mind,LOW,NO_CONFLICT,0,APPROVE
